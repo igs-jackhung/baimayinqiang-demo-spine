@@ -658,7 +658,7 @@ function _showTransition(type, scCount, resolve) {
     // ─── 無影片：沿用靜態圖 ─────────────────────
     if (videoEl) { videoEl.pause(); videoEl.src = ''; videoEl.style.opacity = '0'; }
     bgEl.style.opacity = '1';
-    bgEl.style.backgroundImage = `url('../assets/generated/baimayinqiang_zhaoyun_splash_v7.png')`;
+    bgEl.style.backgroundImage = `url('./assets/generated/baimayinqiang_zhaoyun_splash_v7.png')`;
     
     let displayMs = type === 'FG' || type === 'SFG' ? 3000 : 4000;
     _transitionTimer = setTimeout(finish, displayMs);
@@ -777,7 +777,7 @@ function _spawnGlobalParticles(colorVal = 0xf5c842, tier = 'default') {
 let _bigWinResolve = null, _bigWinFallback = null;
 function _showBigWin(tier, cls, amount, mult, resolve) {
   _bigWinResolve = resolve;
-  $('bigWinBg').style.backgroundImage = `url('../../assets/generated/baimayinqiang_perf_bigwin_layout.png')`;
+  $('bigWinBg').style.backgroundImage = `url('./assets/generated/baimayinqiang_perf_bigwin_layout.png')`;
   const tierEl = $('bigWinTier');
   tierEl.textContent = tier;
   tierEl.className = `bigwin-tier ${cls}`;
@@ -849,7 +849,7 @@ function _showSettlement(totalWin, spinsPlayed, resolve) {
   _settlementResolve = resolve;
   $('settleWinVal').textContent = '0';
   $('settleSpinVal').textContent = spinsPlayed;
-  $('settleBg').style.backgroundImage = `url('../../assets/generated/baimayinqiang_perf_bigwin_layout.png')`;
+  $('settleBg').style.backgroundImage = `url('./assets/generated/baimayinqiang_perf_bigwin_layout.png')`;
   
   // 跑分時間同步：設定為音效長度的 80% (毫秒)
   const audioDur = AudioManager.getDuration('SETTLEMENT');
