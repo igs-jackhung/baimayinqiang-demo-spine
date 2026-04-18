@@ -1,0 +1,1853 @@
+
+Symbol.png
+size: 2045,2045
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Symbol_01/FX_Light_10
+  rotate: false
+  xy: 1030, 697
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+Symbol_01/base
+  rotate: false
+  xy: 957, 1666
+  size: 116, 89
+  orig: 116, 89
+  offset: 0, 0
+  index: -1
+Symbol_01/thing
+  rotate: true
+  xy: 165, 1779
+  size: 73, 82
+  orig: 73, 82
+  offset: 0, 0
+  index: -1
+Symbol_02/FX_Light_10
+  rotate: false
+  xy: 829, 699
+  size: 200, 199
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+Symbol_02/base
+  rotate: false
+  xy: 840, 1666
+  size: 116, 89
+  orig: 116, 89
+  offset: 0, 0
+  index: -1
+Symbol_02/light
+  rotate: false
+  xy: 1564, 858
+  size: 189, 189
+  orig: 189, 189
+  offset: 0, 0
+  index: -1
+Symbol_02/thing
+  rotate: false
+  xy: 1601, 1735
+  size: 91, 83
+  orig: 93, 85
+  offset: 2, 2
+  index: -1
+Symbol_02/thing2
+  rotate: false
+  xy: 1693, 1735
+  size: 91, 83
+  orig: 93, 85
+  offset: 2, 2
+  index: -1
+Symbol_03/Sword
+  rotate: false
+  xy: 1079, 1747
+  size: 105, 81
+  orig: 105, 81
+  offset: 0, 0
+  index: -1
+Symbol_03/Sword_1
+  rotate: false
+  xy: 1196, 1891
+  size: 66, 61
+  orig: 105, 81
+  offset: 0, 0
+  index: -1
+Symbol_03/Sword_2
+  rotate: false
+  xy: 753, 1839
+  size: 67, 64
+  orig: 82, 77
+  offset: 0, 0
+  index: -1
+Symbol_03/Sword_3
+  rotate: true
+  xy: 519, 1905
+  size: 59, 61
+  orig: 105, 80
+  offset: 46, 19
+  index: -1
+Symbol_03/Sword_Base_1
+  rotate: false
+  xy: 608, 1670
+  size: 115, 88
+  orig: 115, 88
+  offset: 0, 0
+  index: -1
+Symbol_03/Sword_Base_2
+  rotate: false
+  xy: 724, 1667
+  size: 115, 88
+  orig: 115, 88
+  offset: 0, 0
+  index: -1
+Symbol_04/Arrow
+  rotate: false
+  xy: 466, 1767
+  size: 95, 76
+  orig: 95, 76
+  offset: 0, 0
+  index: -1
+Symbol_04/Arrow_1
+  rotate: false
+  xy: 378, 1770
+  size: 87, 74
+  orig: 87, 74
+  offset: 0, 0
+  index: -1
+Symbol_04/Arrow_1_1
+  rotate: false
+  xy: 593, 2014
+  size: 36, 31
+  orig: 41, 33
+  offset: 0, 0
+  index: -1
+Symbol_04/Arrow_1_2
+  rotate: false
+  xy: 754, 2010
+  size: 38, 35
+  orig: 38, 35
+  offset: 0, 0
+  index: -1
+Symbol_04/Arrow_Base_1
+  rotate: false
+  xy: 376, 1678
+  size: 115, 88
+  orig: 115, 88
+  offset: 0, 0
+  index: -1
+Symbol_04/Arrow_Base_2
+  rotate: false
+  xy: 492, 1676
+  size: 115, 88
+  orig: 115, 88
+  offset: 0, 0
+  index: -1
+Symbol_04/Bow
+  rotate: false
+  xy: 0, 1791
+  size: 86, 71
+  orig: 86, 71
+  offset: 0, 0
+  index: -1
+Symbol_04/Bow_1
+  rotate: false
+  xy: 1937, 1947
+  size: 58, 52
+  orig: 70, 52
+  offset: 0, 0
+  index: -1
+Symbol_04/Bow_2
+  rotate: false
+  xy: 1009, 1956
+  size: 72, 48
+  orig: 72, 61
+  offset: 0, 0
+  index: -1
+Symbol_04/Bow_3
+  rotate: false
+  xy: 683, 2013
+  size: 70, 32
+  orig: 84, 71
+  offset: 14, 0
+  index: -1
+Symbol_04/Star
+  rotate: false
+  xy: 239, 1584
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Symbol_03/Star
+  rotate: false
+  xy: 239, 1584
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Symbol_05/Erase_1
+  rotate: true
+  xy: 1881, 1884
+  size: 62, 67
+  orig: 62, 67
+  offset: 0, 0
+  index: -1
+Symbol_05/Erase_2
+  rotate: true
+  xy: 0, 1863
+  size: 62, 67
+  orig: 62, 67
+  offset: 0, 0
+  index: -1
+Symbol_05/Erase_3
+  rotate: true
+  xy: 136, 1860
+  size: 62, 67
+  orig: 62, 67
+  offset: 0, 0
+  index: -1
+Symbol_05/Erase_4
+  rotate: true
+  xy: 204, 1853
+  size: 62, 67
+  orig: 62, 67
+  offset: 0, 0
+  index: -1
+Symbol_05/Erase_5
+  rotate: true
+  xy: 272, 1847
+  size: 62, 67
+  orig: 62, 67
+  offset: 0, 0
+  index: -1
+Symbol_05/Erase_6
+  rotate: true
+  xy: 340, 1847
+  size: 62, 67
+  orig: 62, 67
+  offset: 0, 0
+  index: -1
+Symbol_05/Erase_7
+  rotate: true
+  xy: 408, 1845
+  size: 62, 67
+  orig: 62, 67
+  offset: 0, 0
+  index: -1
+Symbol_05/Erase_8
+  rotate: true
+  xy: 68, 1863
+  size: 62, 67
+  orig: 62, 67
+  offset: 0, 0
+  index: -1
+Symbol_05/Y_Halo
+  rotate: false
+  xy: 1605, 1643
+  size: 108, 91
+  orig: 108, 91
+  offset: 0, 0
+  index: -1
+Symbol_05/Y_Jade_ornament
+  rotate: true
+  xy: 1949, 1884
+  size: 62, 67
+  orig: 62, 67
+  offset: 0, 0
+  index: -1
+Symbol_05/Y_Shadow
+  rotate: true
+  xy: 87, 1787
+  size: 72, 77
+  orig: 72, 77
+  offset: 0, 0
+  index: -1
+Symbol_05/_Y_Jade_ornament
+  rotate: false
+  xy: 187, 1688
+  size: 100, 84
+  orig: 108, 91
+  offset: 4, 4
+  index: -1
+Symbol_06/Erase_1
+  rotate: true
+  xy: 364, 2020
+  size: 25, 40
+  orig: 60, 62
+  offset: 0, 22
+  index: -1
+Symbol_06/Erase_2
+  rotate: false
+  xy: 926, 2007
+  size: 40, 38
+  orig: 60, 62
+  offset: 0, 15
+  index: -1
+Symbol_06/Erase_3
+  rotate: true
+  xy: 1597, 2003
+  size: 42, 50
+  orig: 60, 62
+  offset: 0, 1
+  index: -1
+Symbol_06/Erase_4
+  rotate: true
+  xy: 630, 2013
+  size: 32, 52
+  orig: 60, 62
+  offset: 13, 0
+  index: -1
+Symbol_06/Erase_5
+  rotate: true
+  xy: 967, 2007
+  size: 38, 54
+  orig: 60, 62
+  offset: 22, 0
+  index: -1
+Symbol_06/Erase_6
+  rotate: true
+  xy: 0, 2028
+  size: 17, 58
+  orig: 60, 62
+  offset: 43, 0
+  index: -1
+Symbol_06/Erase_7
+  rotate: true
+  xy: 329, 2021
+  size: 24, 34
+  orig: 60, 62
+  offset: 36, 28
+  index: -1
+Symbol_06/R_Halo
+  rotate: false
+  xy: 1496, 1644
+  size: 108, 90
+  orig: 108, 90
+  offset: 0, 0
+  index: -1
+Symbol_06/R_Jade_ornament
+  rotate: true
+  xy: 857, 1897
+  size: 60, 62
+  orig: 60, 62
+  offset: 0, 0
+  index: -1
+Symbol_06/R_Shadow
+  rotate: true
+  xy: 1961, 1813
+  size: 70, 72
+  orig: 70, 72
+  offset: 0, 0
+  index: -1
+Symbol_06/_R_Jade_ornament
+  rotate: false
+  xy: 86, 1694
+  size: 100, 84
+  orig: 108, 90
+  offset: 4, 3
+  index: -1
+Symbol_07/Erase_1
+  rotate: true
+  xy: 1496, 1950
+  size: 52, 62
+  orig: 52, 62
+  offset: 0, 0
+  index: -1
+Symbol_07/Erase_2
+  rotate: true
+  xy: 1559, 1950
+  size: 52, 62
+  orig: 52, 62
+  offset: 0, 0
+  index: -1
+Symbol_07/Erase_3
+  rotate: true
+  xy: 1622, 1949
+  size: 52, 62
+  orig: 52, 62
+  offset: 0, 0
+  index: -1
+Symbol_07/Erase_4
+  rotate: true
+  xy: 1685, 1949
+  size: 52, 62
+  orig: 52, 62
+  offset: 0, 0
+  index: -1
+Symbol_07/Erase_5
+  rotate: true
+  xy: 1748, 1947
+  size: 52, 62
+  orig: 52, 62
+  offset: 0, 0
+  index: -1
+Symbol_07/Erase_6
+  rotate: true
+  xy: 1811, 1947
+  size: 52, 62
+  orig: 52, 62
+  offset: 0, 0
+  index: -1
+Symbol_07/P_Halo
+  rotate: false
+  xy: 1292, 1650
+  size: 108, 90
+  orig: 108, 90
+  offset: 0, 0
+  index: -1
+Symbol_07/P_Jade_ornament
+  rotate: true
+  xy: 1874, 1947
+  size: 52, 62
+  orig: 52, 62
+  offset: 0, 0
+  index: -1
+Symbol_07/P_Shadow
+  rotate: true
+  xy: 1549, 1887
+  size: 62, 71
+  orig: 62, 71
+  offset: 0, 0
+  index: -1
+Symbol_07/_P_Jade_ornament
+  rotate: false
+  xy: 1885, 1728
+  size: 100, 84
+  orig: 108, 90
+  offset: 4, 3
+  index: -1
+Symbol_08/B_Halo
+  rotate: false
+  xy: 1183, 1655
+  size: 108, 90
+  orig: 108, 90
+  offset: 0, 0
+  index: -1
+Symbol_08/B_Jade_ornament
+  rotate: true
+  xy: 188, 1978
+  size: 48, 55
+  orig: 48, 55
+  offset: 0, 0
+  index: -1
+Symbol_08/B_Shadow
+  rotate: true
+  xy: 453, 1908
+  size: 58, 65
+  orig: 58, 65
+  offset: 0, 0
+  index: -1
+Symbol_08/Erase_1
+  rotate: true
+  xy: 953, 1958
+  size: 48, 55
+  orig: 48, 55
+  offset: 0, 0
+  index: -1
+Symbol_08/Erase_2
+  rotate: true
+  xy: 244, 1973
+  size: 48, 55
+  orig: 48, 55
+  offset: 0, 0
+  index: -1
+Symbol_08/Erase_3
+  rotate: true
+  xy: 300, 1972
+  size: 48, 55
+  orig: 48, 55
+  offset: 0, 0
+  index: -1
+Symbol_08/Erase_4
+  rotate: true
+  xy: 485, 1967
+  size: 48, 55
+  orig: 48, 55
+  offset: 0, 0
+  index: -1
+Symbol_08/Erase_5
+  rotate: true
+  xy: 724, 1961
+  size: 48, 55
+  orig: 48, 55
+  offset: 0, 0
+  index: -1
+Symbol_08/Erase_6
+  rotate: true
+  xy: 897, 1958
+  size: 48, 55
+  orig: 48, 55
+  offset: 0, 0
+  index: -1
+Symbol_08/_B_Jade_ornament
+  rotate: false
+  xy: 1401, 1736
+  size: 100, 82
+  orig: 108, 90
+  offset: 4, 4
+  index: -1
+Symbol_09/Erase_1
+  rotate: true
+  xy: 1133, 2003
+  size: 42, 57
+  orig: 42, 57
+  offset: 0, 0
+  index: -1
+Symbol_09/Erase_2
+  rotate: true
+  xy: 1191, 2003
+  size: 42, 57
+  orig: 42, 57
+  offset: 0, 0
+  index: -1
+Symbol_09/Erase_3
+  rotate: true
+  xy: 1249, 2003
+  size: 42, 57
+  orig: 42, 57
+  offset: 0, 0
+  index: -1
+Symbol_09/Erase_4
+  rotate: true
+  xy: 1307, 2003
+  size: 42, 57
+  orig: 42, 57
+  offset: 0, 0
+  index: -1
+Symbol_09/Erase_5
+  rotate: true
+  xy: 1365, 2003
+  size: 42, 57
+  orig: 42, 57
+  offset: 0, 0
+  index: -1
+Symbol_09/Erase_6
+  rotate: true
+  xy: 1423, 2003
+  size: 42, 57
+  orig: 42, 57
+  offset: 0, 0
+  index: -1
+Symbol_09/Erase_7
+  rotate: true
+  xy: 1481, 2003
+  size: 42, 57
+  orig: 42, 57
+  offset: 0, 0
+  index: -1
+Symbol_09/G_Halo
+  rotate: false
+  xy: 1074, 1656
+  size: 108, 90
+  orig: 108, 90
+  offset: 0, 0
+  index: -1
+Symbol_09/G_Jade_ornament
+  rotate: true
+  xy: 1539, 2003
+  size: 42, 57
+  orig: 42, 57
+  offset: 0, 0
+  index: -1
+Symbol_09/G_Shadow
+  rotate: true
+  xy: 1429, 1950
+  size: 52, 66
+  orig: 52, 66
+  offset: 0, 0
+  index: -1
+Symbol_09/_G_Jade_ornament
+  rotate: false
+  xy: 1300, 1741
+  size: 100, 82
+  orig: 108, 90
+  offset: 4, 4
+  index: -1
+Symbol_Multipler_Con/FX/FX_Glow_2
+  rotate: false
+  xy: 0, 512
+  size: 248, 237
+  orig: 263, 255
+  offset: 7, 11
+  index: -1
+Symbol_Multipler_VFX_01/FX/FX_Glow_2
+  rotate: false
+  xy: 0, 512
+  size: 248, 237
+  orig: 263, 255
+  offset: 7, 11
+  index: -1
+Symbol_Multipler_Con/FX/FX_Lighting_85
+  rotate: false
+  xy: 356, 1968
+  size: 128, 47
+  orig: 128, 128
+  offset: 0, 40
+  index: -1
+Symbol_Multipler_VFX_01/FX/FX_Lighting_85
+  rotate: false
+  xy: 356, 1968
+  size: 128, 47
+  orig: 128, 128
+  offset: 0, 40
+  index: -1
+Symbol_Multipler_Con/FX/FX_Particle_11
+  rotate: false
+  xy: 1472, 1819
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+Symbol_Multipler_VFX_01/FX/FX_Particle_11
+  rotate: false
+  xy: 1472, 1819
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+Symbol_Multipler_Con/FX/FX_Ray_10
+  rotate: true
+  xy: 1359, 1824
+  size: 65, 112
+  orig: 125, 125
+  offset: 33, 8
+  index: -1
+Symbol_Multipler_VFX_01/FX/FX_Ray_10
+  rotate: true
+  xy: 1359, 1824
+  size: 65, 112
+  orig: 125, 125
+  offset: 33, 8
+  index: -1
+Symbol_Multipler_Con/FX/FX_Ray_2
+  rotate: false
+  xy: 195, 1305
+  size: 304, 137
+  orig: 304, 137
+  offset: 0, 0
+  index: -1
+Symbol_Multipler_VFX_01/FX/FX_Ray_2
+  rotate: false
+  xy: 195, 1305
+  size: 304, 137
+  orig: 304, 137
+  offset: 0, 0
+  index: -1
+Symbol_Multipler_Con/FX/FX_Star_4_3
+  rotate: false
+  xy: 541, 1965
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+Symbol_Multipler_VFX_01/FX/FX_Star_4_3
+  rotate: false
+  xy: 541, 1965
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+Symbol_Multipler_Con/FX/FX_Wind1/FX_Wind1_2
+  rotate: true
+  xy: 207, 750
+  size: 189, 206
+  orig: 251, 296
+  offset: 5, 16
+  index: -1
+Symbol_Multipler_VFX_01/FX/FX_Wind1/FX_Wind1_2
+  rotate: true
+  xy: 207, 750
+  size: 189, 206
+  orig: 251, 296
+  offset: 5, 16
+  index: -1
+Symbol_Multipler_Con/FX/FX_Wind1/FX_Wind1_3
+  rotate: true
+  xy: 1754, 825
+  size: 188, 245
+  orig: 251, 296
+  offset: 2, 18
+  index: -1
+Symbol_Multipler_VFX_01/FX/FX_Wind1/FX_Wind1_3
+  rotate: true
+  xy: 1754, 825
+  size: 188, 245
+  orig: 251, 296
+  offset: 2, 18
+  index: -1
+Symbol_Multipler_Con/FX/FX_Wind1/FX_Wind1_4
+  rotate: true
+  xy: 1631, 1220
+  size: 149, 263
+  orig: 251, 296
+  offset: 0, 33
+  index: -1
+Symbol_Multipler_VFX_01/FX/FX_Wind1/FX_Wind1_4
+  rotate: true
+  xy: 1631, 1220
+  size: 149, 263
+  orig: 251, 296
+  offset: 0, 33
+  index: -1
+Symbol_Multipler_Con/FX/FX_Wind1/FX_Wind1_5
+  rotate: true
+  xy: 464, 1122
+  size: 150, 268
+  orig: 251, 296
+  offset: 4, 23
+  index: -1
+Symbol_Multipler_VFX_01/FX/FX_Wind1/FX_Wind1_5
+  rotate: true
+  xy: 464, 1122
+  size: 150, 268
+  orig: 251, 296
+  offset: 4, 23
+  index: -1
+Symbol_Multipler_Con/FX/FX_Wind3/skill1_2_0009
+  rotate: false
+  xy: 0, 1163
+  size: 194, 150
+  orig: 196, 170
+  offset: 1, 19
+  index: -1
+Symbol_Multipler_VFX_01/FX/FX_Wind3/skill1_2_0009
+  rotate: false
+  xy: 0, 1163
+  size: 194, 150
+  orig: 196, 170
+  offset: 1, 19
+  index: -1
+Symbol_Multipler_Con/FX/FX_Wind3/skill1_2_0011
+  rotate: true
+  xy: 1895, 1186
+  size: 183, 150
+  orig: 185, 176
+  offset: 1, 25
+  index: -1
+Symbol_Multipler_VFX_01/FX/FX_Wind3/skill1_2_0011
+  rotate: true
+  xy: 1895, 1186
+  size: 183, 150
+  orig: 185, 176
+  offset: 1, 25
+  index: -1
+Symbol_Multipler_Mon/FX/FX_Glow_2
+  rotate: true
+  xy: 249, 493
+  size: 252, 253
+  orig: 263, 255
+  offset: 5, 1
+  index: -1
+Symbol_Multipler_VFX_01/FX/FX_Glow_2_M
+  rotate: true
+  xy: 249, 493
+  size: 252, 253
+  orig: 263, 255
+  offset: 5, 1
+  index: -1
+Symbol_Multipler_Mon/FX/FX_Glow_2_1
+  rotate: true
+  xy: 503, 460
+  size: 252, 253
+  orig: 263, 255
+  offset: 5, 1
+  index: -1
+Symbol_Multipler_VFX_01/FX/FX_Glow_2_1
+  rotate: true
+  xy: 503, 460
+  size: 252, 253
+  orig: 263, 255
+  offset: 5, 1
+  index: -1
+Symbol_Multipler_Mon/FX/FX_Glow_3
+  rotate: false
+  xy: 964, 1409
+  size: 205, 129
+  orig: 205, 129
+  offset: 0, 0
+  index: -1
+Symbol_Multipler_Con/FX/FX_Glow_3
+  rotate: false
+  xy: 964, 1409
+  size: 205, 129
+  orig: 205, 129
+  offset: 0, 0
+  index: -1
+Symbol_Multipler_VFX_01/FX/FX_Glow_3
+  rotate: false
+  xy: 964, 1409
+  size: 205, 129
+  orig: 205, 129
+  offset: 0, 0
+  index: -1
+Symbol_Multipler_Mon/FX/FX_Light_5_1
+  rotate: false
+  xy: 634, 713
+  size: 194, 192
+  orig: 202, 199
+  offset: 3, 3
+  index: -1
+Symbol_Multipler_Con/FX/FX_Light_5_1
+  rotate: false
+  xy: 634, 713
+  size: 194, 192
+  orig: 202, 199
+  offset: 3, 3
+  index: -1
+Symbol_Multipler_VFX_01/FX/FX_Light_5_1
+  rotate: false
+  xy: 634, 713
+  size: 194, 192
+  orig: 202, 199
+  offset: 3, 3
+  index: -1
+Symbol_Multipler_Mon/FX/FX_Wind1/FX_Wind1_2
+  rotate: true
+  xy: 0, 792
+  size: 189, 206
+  orig: 251, 296
+  offset: 5, 16
+  index: -1
+Symbol_Multipler_VFX_01/FX/FX_Wind1_1/FX_Wind1_2
+  rotate: true
+  xy: 0, 792
+  size: 189, 206
+  orig: 251, 296
+  offset: 5, 16
+  index: -1
+Symbol_Multipler_Mon/FX/FX_Wind1/FX_Wind1_3
+  rotate: true
+  xy: 1318, 875
+  size: 188, 245
+  orig: 251, 296
+  offset: 2, 18
+  index: -1
+Symbol_Multipler_VFX_01/FX/FX_Wind1_1/FX_Wind1_3
+  rotate: true
+  xy: 1318, 875
+  size: 188, 245
+  orig: 251, 296
+  offset: 2, 18
+  index: -1
+Symbol_Multipler_Mon/FX/FX_Wind1/FX_Wind1_4
+  rotate: true
+  xy: 1178, 1244
+  size: 149, 263
+  orig: 251, 296
+  offset: 0, 33
+  index: -1
+Symbol_Multipler_VFX_01/FX/FX_Wind1_1/FX_Wind1_4
+  rotate: true
+  xy: 1178, 1244
+  size: 149, 263
+  orig: 251, 296
+  offset: 0, 33
+  index: -1
+Symbol_Multipler_Mon/FX/FX_Wind1/FX_Wind1_5
+  rotate: true
+  xy: 195, 1154
+  size: 150, 268
+  orig: 251, 296
+  offset: 4, 23
+  index: -1
+Symbol_Multipler_VFX_01/FX/FX_Wind1_1/FX_Wind1_5
+  rotate: true
+  xy: 195, 1154
+  size: 150, 268
+  orig: 251, 296
+  offset: 4, 23
+  index: -1
+Symbol_Multipler_Mon/FX/FX_Wind2/TX_S1_shua_0010
+  rotate: false
+  xy: 0, 1926
+  size: 136, 53
+  orig: 138, 53
+  offset: 2, 0
+  index: -1
+Symbol_Multipler_Con/FX/FX_Wind2/TX_S1_shua_0010
+  rotate: false
+  xy: 0, 1926
+  size: 136, 53
+  orig: 138, 53
+  offset: 2, 0
+  index: -1
+Symbol_Multipler_VFX_01/FX/FX_Wind2/TX_S1_shua_0010
+  rotate: false
+  xy: 0, 1926
+  size: 136, 53
+  orig: 138, 53
+  offset: 2, 0
+  index: -1
+Symbol_Multipler_Mon/FX/FX_Wind2/TX_S1_shua_0014
+  rotate: false
+  xy: 51, 1980
+  size: 136, 46
+  orig: 138, 50
+  offset: 2, 1
+  index: -1
+Symbol_Multipler_Con/FX/FX_Wind2/TX_S1_shua_0014
+  rotate: false
+  xy: 51, 1980
+  size: 136, 46
+  orig: 138, 50
+  offset: 2, 1
+  index: -1
+Symbol_Multipler_VFX_01/FX/FX_Wind2/TX_S1_shua_0014
+  rotate: false
+  xy: 51, 1980
+  size: 136, 46
+  orig: 138, 50
+  offset: 2, 1
+  index: -1
+Symbol_Multipler_Mon/FX/FX_Wind2/TX_S1_shua_0016
+  rotate: false
+  xy: 793, 2009
+  size: 132, 36
+  orig: 135, 49
+  offset: 1, 0
+  index: -1
+Symbol_Multipler_Con/FX/FX_Wind2/TX_S1_shua_0016
+  rotate: false
+  xy: 793, 2009
+  size: 132, 36
+  orig: 135, 49
+  offset: 1, 0
+  index: -1
+Symbol_Multipler_VFX_01/FX/FX_Wind2/TX_S1_shua_0016
+  rotate: false
+  xy: 793, 2009
+  size: 132, 36
+  orig: 135, 49
+  offset: 1, 0
+  index: -1
+Symbol_Multipler_Mon/FX/FX_Wind2/TX_S1_shua_0018
+  rotate: false
+  xy: 592, 1964
+  size: 131, 48
+  orig: 133, 53
+  offset: 1, 0
+  index: -1
+Symbol_Multipler_Con/FX/FX_Wind2/TX_S1_shua_0018
+  rotate: false
+  xy: 592, 1964
+  size: 131, 48
+  orig: 133, 53
+  offset: 1, 0
+  index: -1
+Symbol_Multipler_VFX_01/FX/FX_Wind2/TX_S1_shua_0018
+  rotate: false
+  xy: 592, 1964
+  size: 131, 48
+  orig: 133, 53
+  offset: 1, 0
+  index: -1
+Symbol_Multipler_Mon/FX/FX_Wind3/skill1_2_0007
+  rotate: false
+  xy: 799, 1265
+  size: 194, 143
+  orig: 196, 173
+  offset: 2, 29
+  index: -1
+Symbol_Multipler_Con/FX/FX_Wind3/skill1_2_0007
+  rotate: false
+  xy: 799, 1265
+  size: 194, 143
+  orig: 196, 173
+  offset: 2, 29
+  index: -1
+Symbol_Multipler_VFX_01/FX/FX_Wind3/skill1_2_0007
+  rotate: false
+  xy: 799, 1265
+  size: 194, 143
+  orig: 196, 173
+  offset: 2, 29
+  index: -1
+Symbol_Multipler_Mon/FX/FX_Wind3/skill1_2_0009
+  rotate: false
+  xy: 0, 1314
+  size: 194, 140
+  orig: 196, 170
+  offset: 1, 19
+  index: -1
+Symbol_Multipler_Mon/FX/FX_Wind3/skill1_2_0011
+  rotate: false
+  xy: 994, 1251
+  size: 183, 148
+  orig: 185, 176
+  offset: 1, 25
+  index: -1
+Symbol_Multipler_Mon/FX/FX_Wind3/skill1_2_0013
+  rotate: false
+  xy: 1442, 1227
+  size: 188, 150
+  orig: 189, 175
+  offset: 1, 25
+  index: -1
+Symbol_Multipler_Con/FX/FX_Wind3/skill1_2_0013
+  rotate: false
+  xy: 1442, 1227
+  size: 188, 150
+  orig: 189, 175
+  offset: 1, 25
+  index: -1
+Symbol_Multipler_VFX_01/FX/FX_Wind3/skill1_2_0013
+  rotate: false
+  xy: 1442, 1227
+  size: 188, 150
+  orig: 189, 175
+  offset: 1, 25
+  index: -1
+Symbol_Scatter_01/Add_Particles0
+  rotate: false
+  xy: 1906, 1508
+  size: 131, 122
+  orig: 150, 150
+  offset: 8, 17
+  index: -1
+Symbol_Scatter_01/D_Glow3
+  rotate: true
+  xy: 688, 1424
+  size: 132, 134
+  orig: 150, 150
+  offset: 8, 8
+  index: -1
+Symbol_Scatter_01/Glow_4
+  rotate: false
+  xy: 298, 167
+  size: 345, 292
+  orig: 345, 295
+  offset: 0, 3
+  index: -1
+Symbol_Scatter_01/LensFlare02
+  rotate: false
+  xy: 0, 1705
+  size: 85, 85
+  orig: 100, 100
+  offset: 8, 6
+  index: -1
+Symbol_Scatter_01/Lineing001
+  rotate: false
+  xy: 0, 1461
+  size: 128, 126
+  orig: 128, 128
+  offset: 0, 2
+  index: -1
+Symbol_Scatter_01/Ring07
+  rotate: false
+  xy: 644, 83
+  size: 360, 360
+  orig: 360, 360
+  offset: 0, 0
+  index: -1
+Symbol_Scatter_01/SCATTER
+  rotate: false
+  xy: 1919, 2000
+  size: 113, 45
+  orig: 113, 45
+  offset: 0, 0
+  index: -1
+Symbol_Scatter_01/Scatter01
+  rotate: false
+  xy: 340, 1571
+  size: 126, 106
+  orig: 128, 108
+  offset: 1, 1
+  index: -1
+Symbol_Scatter_01/bg
+  rotate: false
+  xy: 227, 1916
+  size: 88, 55
+  orig: 88, 55
+  offset: 0, 0
+  index: -1
+Symbol_Scatter_01/kuang
+  rotate: false
+  xy: 688, 1759
+  size: 118, 79
+  orig: 118, 79
+  offset: 0, 0
+  index: -1
+Symbol_Scatter_01/lt 1_00
+  rotate: true
+  xy: 1809, 1633
+  size: 94, 99
+  orig: 165, 121
+  offset: 23, 12
+  index: -1
+Symbol_Scatter_01/lt 1_01
+  rotate: false
+  xy: 0, 1594
+  size: 118, 99
+  orig: 165, 121
+  offset: 23, 13
+  index: -1
+Symbol_Scatter_01/lt 1_02
+  rotate: false
+  xy: 119, 1588
+  size: 119, 99
+  orig: 165, 121
+  offset: 25, 13
+  index: -1
+Symbol_Scatter_01/lt 1_03
+  rotate: false
+  xy: 1502, 1735
+  size: 98, 83
+  orig: 165, 121
+  offset: 46, 13
+  index: -1
+Symbol_Scatter_01/lt 2_00
+  rotate: true
+  xy: 1185, 1746
+  size: 82, 114
+  orig: 166, 131
+  offset: 12, 17
+  index: -1
+Symbol_Scatter_01/lt 2_01
+  rotate: false
+  xy: 986, 1542
+  size: 135, 113
+  orig: 166, 131
+  offset: 12, 16
+  index: -1
+Symbol_Scatter_01/lt 2_02
+  rotate: false
+  xy: 1170, 1400
+  size: 166, 131
+  orig: 166, 131
+  offset: 0, 0
+  index: -1
+Symbol_Scatter_01/lt 2_03
+  rotate: false
+  xy: 1337, 1394
+  size: 166, 131
+  orig: 166, 131
+  offset: 0, 0
+  index: -1
+Symbol_Scatter_01/tou
+  rotate: false
+  xy: 1349, 1952
+  size: 79, 50
+  orig: 79, 50
+  offset: 0, 0
+  index: -1
+Symbol_Scatter_01/txtdb
+  rotate: false
+  xy: 1231, 1953
+  size: 117, 49
+  orig: 117, 50
+  offset: 0, 0
+  index: -1
+Symbol_Scatter_01/yy
+  rotate: false
+  xy: 719, 1557
+  size: 128, 108
+  orig: 128, 108
+  offset: 0, 0
+  index: -1
+Symbol_Scatter_02/SCATTER
+  rotate: false
+  xy: 1648, 2002
+  size: 112, 43
+  orig: 112, 45
+  offset: 0, 1
+  index: -1
+Symbol_Scatter_02/Scatter02
+  rotate: false
+  xy: 1358, 1526
+  size: 147, 117
+  orig: 148, 148
+  offset: 1, 20
+  index: -1
+Symbol_Scatter_02/bg
+  rotate: false
+  xy: 137, 1923
+  size: 89, 54
+  orig: 89, 54
+  offset: 0, 0
+  index: -1
+Symbol_Scatter_02/bs
+  rotate: false
+  xy: 255, 2022
+  size: 73, 23
+  orig: 73, 23
+  offset: 0, 0
+  index: -1
+Symbol_Scatter_02/kuang
+  rotate: false
+  xy: 562, 1765
+  size: 125, 78
+  orig: 125, 78
+  offset: 0, 0
+  index: -1
+Symbol_Scatter_02/tou
+  rotate: false
+  xy: 316, 1910
+  size: 78, 57
+  orig: 79, 57
+  offset: 1, 0
+  index: -1
+Symbol_Scatter_02/txtdb
+  rotate: false
+  xy: 780, 1960
+  size: 116, 48
+  orig: 116, 48
+  offset: 0, 0
+  index: -1
+Symbol_Scatter_02/yunwenlr
+  rotate: false
+  xy: 1820, 1814
+  size: 140, 69
+  orig: 144, 94
+  offset: 0, 25
+  index: -1
+Symbol_Scatter_02/yy
+  rotate: false
+  xy: 1506, 1523
+  size: 148, 119
+  orig: 148, 119
+  offset: 0, 0
+  index: -1
+Symbol_VFX/FX_Circle
+  rotate: false
+  xy: 1784, 1511
+  size: 121, 121
+  orig: 121, 121
+  offset: 0, 0
+  index: -1
+Symbol_VFX/FX_Glow
+  rotate: false
+  xy: 395, 1910
+  size: 57, 57
+  orig: 57, 57
+  offset: 0, 0
+  index: -1
+Symbol_VFX/FX_f1
+  rotate: false
+  xy: 1621, 1887
+  size: 259, 59
+  orig: 285, 59
+  offset: 14, 0
+  index: -1
+Symbol_VFX/FX_f2
+  rotate: false
+  xy: 1090, 1829
+  size: 268, 60
+  orig: 268, 60
+  offset: 0, 0
+  index: -1
+Symbol_VFX/FX_f3
+  rotate: false
+  xy: 476, 1844
+  size: 276, 59
+  orig: 276, 67
+  offset: 0, 0
+  index: -1
+Symbol_VFX/FX_f4
+  rotate: false
+  xy: 920, 1897
+  size: 275, 55
+  orig: 275, 55
+  offset: 0, 0
+  index: -1
+Symbol_VFX/FX_fire_1
+  rotate: false
+  xy: 548, 1429
+  size: 139, 128
+  orig: 139, 128
+  offset: 0, 0
+  index: -1
+Symbol_VFX/FX_fire_3
+  rotate: true
+  xy: 733, 1104
+  size: 160, 162
+  orig: 160, 162
+  offset: 0, 0
+  index: -1
+Symbol_VFX/FX_fog_1_1
+  rotate: false
+  xy: 248, 1773
+  size: 129, 73
+  orig: 129, 73
+  offset: 0, 0
+  index: -1
+Symbol_VFX/Fire_Explosion_Shockwave1_04
+  rotate: false
+  xy: 1504, 1378
+  size: 180, 135
+  orig: 180, 135
+  offset: 0, 0
+  index: -1
+Symbol_VFX/Line_Box03
+  rotate: true
+  xy: 1128, 898
+  size: 182, 189
+  orig: 182, 189
+  offset: 0, 0
+  index: -1
+Symbol_VFX/chain
+  rotate: false
+  xy: 467, 1569
+  size: 131, 106
+  orig: 131, 106
+  offset: 0, 0
+  index: -1
+Symbol_VFX/chain_loog
+  rotate: true
+  xy: 59, 2027
+  size: 18, 195
+  orig: 18, 195
+  offset: 0, 0
+  index: -1
+Symbol_VFX/fire_00
+  rotate: false
+  xy: 848, 1553
+  size: 137, 112
+  orig: 137, 112
+  offset: 0, 0
+  index: -1
+Symbol_VFX/smoke07
+  rotate: true
+  xy: 823, 1413
+  size: 139, 140
+  orig: 139, 140
+  offset: 0, 0
+  index: -1
+Symbol_VFX/spark_01
+  rotate: false
+  xy: 1909, 1631
+  size: 97, 96
+  orig: 97, 98
+  offset: 0, 0
+  index: -1
+Symbol_VFX/spark_02
+  rotate: false
+  xy: 1022, 2007
+  size: 44, 38
+  orig: 44, 38
+  offset: 0, 0
+  index: -1
+Symbol_VFX_01/FX/FX_Fire_1
+  rotate: true
+  xy: 1454, 634
+  size: 223, 278
+  orig: 360, 360
+  offset: 60, 42
+  index: -1
+Symbol_VFX_01/FX/FX_Fire_1_1
+  rotate: false
+  xy: 1655, 1514
+  size: 128, 121
+  orig: 139, 128
+  offset: 5, 3
+  index: -1
+Symbol_VFX_01/FX/FX_Fire_2
+  rotate: true
+  xy: 544, 937
+  size: 184, 185
+  orig: 184, 185
+  offset: 0, 0
+  index: -1
+Symbol_VFX_01/FX/FX_Fire_Particle1
+  rotate: false
+  xy: 1785, 1729
+  size: 99, 84
+  orig: 99, 84
+  offset: 0, 0
+  index: -1
+Symbol_VFX_01/FX/FX_Fire_Particle2
+  rotate: true
+  xy: 414, 746
+  size: 190, 219
+  orig: 190, 219
+  offset: 0, 0
+  index: -1
+Symbol_VFX/FG_lizi_04
+  rotate: true
+  xy: 414, 746
+  size: 190, 219
+  orig: 190, 219
+  offset: 0, 0
+  index: -1
+Symbol_VFX_01/FX/FX_Fog_3_2
+  rotate: false
+  xy: 129, 1455
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Symbol_VFX_01/FX/FX_Glow_1
+  rotate: false
+  xy: 1122, 1539
+  size: 117, 115
+  orig: 117, 115
+  offset: 0, 0
+  index: -1
+Symbol_Multipler_Con/FX/FX_Glow_6
+  rotate: false
+  xy: 1122, 1539
+  size: 117, 115
+  orig: 117, 115
+  offset: 0, 0
+  index: -1
+Symbol_Multipler_Mon/FX/FX_Glow_6
+  rotate: false
+  xy: 1122, 1539
+  size: 117, 115
+  orig: 117, 115
+  offset: 0, 0
+  index: -1
+Symbol_Multipler_VFX_01/FX/FX_Glow_6
+  rotate: false
+  xy: 1122, 1539
+  size: 117, 115
+  orig: 117, 115
+  offset: 0, 0
+  index: -1
+Symbol_VFX_04/FX/FX_Glow_1
+  rotate: false
+  xy: 1122, 1539
+  size: 117, 115
+  orig: 117, 115
+  offset: 0, 0
+  index: -1
+Symbol_VFX_01/FX/FX_Particle_3
+  rotate: false
+  xy: 648, 1273
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+Symbol_VFX_01/FX/FX_Ray_2
+  rotate: false
+  xy: 258, 1443
+  size: 289, 125
+  orig: 304, 137
+  offset: 4, 5
+  index: -1
+Symbol_VFX_01/FX/FX_Star_1
+  rotate: false
+  xy: 0, 202
+  size: 297, 290
+  orig: 301, 320
+  offset: 3, 12
+  index: -1
+Symbol_VFX_01/FX/fx_fog_1
+  rotate: false
+  xy: 1277, 377
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+Symbol_VFX_02/B01
+  rotate: false
+  xy: 1584, 1048
+  size: 180, 171
+  orig: 190, 190
+  offset: 5, 2
+  index: -1
+Symbol_Multipler_Con/B01
+  rotate: false
+  xy: 1584, 1048
+  size: 180, 171
+  orig: 190, 190
+  offset: 5, 2
+  index: -1
+Symbol_VFX_02/B02
+  rotate: true
+  xy: 896, 1088
+  size: 162, 171
+  orig: 190, 190
+  offset: 14, 2
+  index: -1
+Symbol_Multipler_Mon/B02
+  rotate: true
+  xy: 896, 1088
+  size: 162, 171
+  orig: 190, 190
+  offset: 14, 2
+  index: -1
+Symbol_VFX_02/FX/FX_Glow_2
+  rotate: true
+  xy: 1714, 1636
+  size: 92, 94
+  orig: 100, 103
+  offset: 4, 5
+  index: -1
+Symbol_VFX_02/FX/FX_Glow_3
+  rotate: false
+  xy: 362, 940
+  size: 181, 181
+  orig: 199, 199
+  offset: 9, 9
+  index: -1
+Symbol_VFX_03/FX/FX_Glow_3
+  rotate: false
+  xy: 362, 940
+  size: 181, 181
+  orig: 199, 199
+  offset: 9, 9
+  index: -1
+Symbol_VFX_02/FX/FX_Lighting_61
+  rotate: false
+  xy: 1534, 330
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+Symbol_VFX_03/FX/FX_Lighting_61
+  rotate: false
+  xy: 1534, 330
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+Symbol_VFX_02/G01
+  rotate: false
+  xy: 1765, 1014
+  size: 180, 171
+  orig: 190, 190
+  offset: 5, 2
+  index: -1
+Symbol_Multipler_Con/G01
+  rotate: false
+  xy: 1765, 1014
+  size: 180, 171
+  orig: 190, 190
+  offset: 5, 2
+  index: -1
+Symbol_Multipler_VFX_01/G01
+  rotate: false
+  xy: 1765, 1014
+  size: 180, 171
+  orig: 190, 190
+  offset: 5, 2
+  index: -1
+Symbol_VFX_02/G02
+  rotate: true
+  xy: 1068, 1081
+  size: 162, 171
+  orig: 190, 190
+  offset: 14, 2
+  index: -1
+Symbol_Multipler_Mon/G02
+  rotate: true
+  xy: 1068, 1081
+  size: 162, 171
+  orig: 190, 190
+  offset: 14, 2
+  index: -1
+Symbol_Multipler_VFX_01/G02
+  rotate: true
+  xy: 1068, 1081
+  size: 162, 171
+  orig: 190, 190
+  offset: 14, 2
+  index: -1
+Symbol_VFX_02/P01
+  rotate: false
+  xy: 0, 991
+  size: 180, 171
+  orig: 190, 190
+  offset: 5, 2
+  index: -1
+Symbol_Multipler_Con/P01
+  rotate: false
+  xy: 0, 991
+  size: 180, 171
+  orig: 190, 190
+  offset: 5, 2
+  index: -1
+Symbol_VFX_02/P02
+  rotate: true
+  xy: 1240, 1081
+  size: 162, 171
+  orig: 190, 190
+  offset: 14, 2
+  index: -1
+Symbol_Multipler_Mon/P02
+  rotate: true
+  xy: 1240, 1081
+  size: 162, 171
+  orig: 190, 190
+  offset: 14, 2
+  index: -1
+Symbol_VFX_02/R01
+  rotate: false
+  xy: 181, 982
+  size: 180, 171
+  orig: 190, 190
+  offset: 5, 2
+  index: -1
+Symbol_Multipler_Con/R01
+  rotate: false
+  xy: 181, 982
+  size: 180, 171
+  orig: 190, 190
+  offset: 5, 2
+  index: -1
+Symbol_VFX_02/R02
+  rotate: true
+  xy: 1412, 1064
+  size: 162, 171
+  orig: 190, 190
+  offset: 14, 2
+  index: -1
+Symbol_Multipler_Mon/R02
+  rotate: true
+  xy: 1412, 1064
+  size: 162, 171
+  orig: 190, 190
+  offset: 14, 2
+  index: -1
+Symbol_VFX_03/FX/FX_Fire_3
+  rotate: false
+  xy: 599, 1558
+  size: 119, 111
+  orig: 180, 135
+  offset: 30, 10
+  index: -1
+Symbol_VFX_03/FX/FX_Glow_6_5
+  rotate: false
+  xy: 1240, 1532
+  size: 117, 117
+  orig: 128, 128
+  offset: 6, 5
+  index: -1
+Symbol_Multipler_Con/FX/FX_Glow_6_5
+  rotate: false
+  xy: 1240, 1532
+  size: 117, 117
+  orig: 128, 128
+  offset: 6, 5
+  index: -1
+Symbol_Multipler_Mon/FX/FX_Glow_6_5
+  rotate: false
+  xy: 1240, 1532
+  size: 117, 117
+  orig: 128, 128
+  offset: 6, 5
+  index: -1
+Symbol_Multipler_VFX_01/FX/FX_Glow_6_5
+  rotate: false
+  xy: 1240, 1532
+  size: 117, 117
+  orig: 128, 128
+  offset: 6, 5
+  index: -1
+Symbol_VFX_03/FX/FX_Lighting_26
+  rotate: true
+  xy: 757, 444
+  size: 254, 262
+  orig: 254, 262
+  offset: 0, 0
+  index: -1
+Symbol_VFX_03/FX/FX_Star_7_1
+  rotate: false
+  xy: 288, 1685
+  size: 87, 87
+  orig: 110, 110
+  offset: 12, 12
+  index: -1
+Symbol_Multipler_Con/FX/FX_Star_7_1
+  rotate: false
+  xy: 288, 1685
+  size: 87, 87
+  orig: 110, 110
+  offset: 12, 12
+  index: -1
+Symbol_Multipler_Mon/FX/FX_Star_7_1
+  rotate: false
+  xy: 288, 1685
+  size: 87, 87
+  orig: 110, 110
+  offset: 12, 12
+  index: -1
+Symbol_Multipler_VFX_01/FX/FX_Star_7_1
+  rotate: false
+  xy: 288, 1685
+  size: 87, 87
+  orig: 110, 110
+  offset: 12, 12
+  index: -1
+Symbol_VFX_04/FX/FX_Glow_2
+  rotate: false
+  xy: 1733, 587
+  size: 248, 237
+  orig: 263, 255
+  offset: 7, 11
+  index: -1
+Symbol_VFX_04/FX/FX_Wind_1
+  rotate: false
+  xy: 1020, 405
+  size: 256, 254
+  orig: 256, 256
+  offset: 0, 2
+  index: -1
+Symbol_VFX_04/FX/FX_Wind_2
+  rotate: false
+  xy: 1231, 660
+  size: 222, 214
+  orig: 224, 215
+  offset: 1, 0
+  index: -1
+Symbol_VFX_04/FX/FX_Wind_3
+  rotate: true
+  xy: 500, 1283
+  size: 145, 147
+  orig: 146, 147
+  offset: 1, 0
+  index: -1
+Symbol_VFX_04/FX/FX_Wind_4
+  rotate: false
+  xy: 1082, 1953
+  size: 148, 49
+  orig: 155, 60
+  offset: 0, 2
+  index: -1
+Symbol_VFX_04/FX/FX_Wind_5
+  rotate: true
+  xy: 1761, 2000
+  size: 45, 157
+  orig: 54, 165
+  offset: 0, 0
+  index: -1
+Symbol_VFX_04/FX/ray
+  rotate: false
+  xy: 1685, 1370
+  size: 304, 137
+  orig: 304, 137
+  offset: 0, 0
+  index: -1
+Symbol_VFX_04/FX/yanmu_0
+  rotate: false
+  xy: 807, 1756
+  size: 271, 79
+  orig: 271, 79
+  offset: 0, 0
+  index: -1
+Symbol_VFX_NearWin/FX_Ray_11
+  rotate: true
+  xy: 405, 2016
+  size: 29, 187
+  orig: 29, 187
+  offset: 0, 0
+  index: -1
+Symbol_VFX_NearWin/FX_f1
+  rotate: false
+  xy: 1263, 1890
+  size: 285, 59
+  orig: 285, 59
+  offset: 0, 0
+  index: -1
+Symbol_VFX_NearWin/FX_f2
+  rotate: false
+  xy: 821, 1836
+  size: 268, 60
+  orig: 268, 60
+  offset: 0, 0
+  index: -1
+Symbol_VFX_NearWin/FX_f3
+  rotate: false
+  xy: 1543, 1819
+  size: 276, 67
+  orig: 276, 67
+  offset: 0, 0
+  index: -1
+Symbol_VFX_NearWin/FX_f4
+  rotate: false
+  xy: 581, 1904
+  size: 275, 55
+  orig: 275, 55
+  offset: 0, 0
+  index: -1
+Symbol_VFX_NearWin/FX_light_5
+  rotate: false
+  xy: 1067, 2005
+  size: 65, 40
+  orig: 65, 40
+  offset: 0, 0
+  index: -1
+Symbol_VFX_NearWin/Line_Box01
+  rotate: false
+  xy: 0, 1981
+  size: 50, 46
+  orig: 50, 46
+  offset: 0, 0
+  index: -1
+Symbol_VFX_NearWin/Line_Box03
+  rotate: true
+  xy: 1401, 1644
+  size: 91, 94
+  orig: 91, 94
+  offset: 0, 0
+  index: -1
+Symbol_VFX_NearWin/fx_particles_17
+  rotate: false
+  xy: 730, 906
+  size: 198, 181
+  orig: 198, 181
+  offset: 0, 0
+  index: -1
+Symbol_VFX_NearWin/particles_1
+  rotate: false
+  xy: 929, 899
+  size: 198, 181
+  orig: 198, 181
+  offset: 0, 0
+  index: -1
+
+Symbol2.png
+size: 1403,1403
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Symbol_Multipler_Con/FX/FX_Lighting_11
+  rotate: true
+  xy: 948, 988
+  size: 415, 419
+  orig: 480, 480
+  offset: 32, 32
+  index: -1
+Symbol_Multipler_VFX_01/FX/FX_Lighting_11
+  rotate: true
+  xy: 948, 988
+  size: 415, 419
+  orig: 480, 480
+  offset: 32, 32
+  index: -1
+Symbol_VFX_04/FX/wind/flow_1
+  rotate: false
+  xy: 478, 926
+  size: 469, 477
+  orig: 500, 500
+  offset: 14, 11
+  index: -1
+Symbol_VFX_04/FX/wind/flow_3
+  rotate: false
+  xy: 0, 453
+  size: 469, 474
+  orig: 500, 500
+  offset: 12, 15
+  index: -1
+Symbol_VFX_04/FX/wind/flow_5
+  rotate: false
+  xy: 0, 928
+  size: 477, 475
+  orig: 500, 500
+  offset: 13, 14
+  index: -1
+Symbol_VFX_04/FX/wind/flow_7
+  rotate: false
+  xy: 470, 458
+  size: 474, 467
+  orig: 500, 500
+  offset: 12, 23
+  index: -1
+Symbol_VFX_04/FX/wind/flow_9
+  rotate: false
+  xy: 945, 456
+  size: 458, 469
+  orig: 500, 500
+  offset: 18, 17
+  index: -1

@@ -1,0 +1,216 @@
+
+BinWin_Omen.png
+size: 1018,1018
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+FX/FX_Fire_Particle2
+  rotate: false
+  xy: 915, 897
+  size: 64, 62
+  orig: 66, 64
+  offset: 1, 0
+  index: -1
+FX/FX_Fire_Particle3
+  rotate: false
+  xy: 551, 970
+  size: 51, 47
+  orig: 54, 55
+  offset: 2, 3
+  index: -1
+FX/FX_Fire_Particle4
+  rotate: false
+  xy: 859, 969
+  size: 55, 48
+  orig: 57, 60
+  offset: 2, 5
+  index: -1
+FX/FX_Fire_Particle5
+  rotate: false
+  xy: 330, 770
+  size: 99, 84
+  orig: 99, 84
+  offset: 0, 0
+  index: -1
+FX/FX_Fire_Particle7
+  rotate: false
+  xy: 916, 961
+  size: 101, 56
+  orig: 101, 59
+  offset: 0, 1
+  index: -1
+FX/FX_Glow_6
+  rotate: false
+  xy: 431, 739
+  size: 117, 115
+  orig: 117, 115
+  offset: 0, 0
+  index: -1
+FX/FX_Ray_9
+  rotate: true
+  xy: 604, 970
+  size: 47, 253
+  orig: 60, 264
+  offset: 7, 10
+  index: -1
+FX/FX_Smoke_2
+  rotate: false
+  xy: 672, 705
+  size: 312, 124
+  orig: 332, 140
+  offset: 10, 4
+  index: -1
+FX/FX_spot_02
+  rotate: false
+  xy: 911, 831
+  size: 88, 64
+  orig: 91, 65
+  offset: 1, 0
+  index: -1
+FX/Fire_1/TX_yjh_0152
+  rotate: false
+  xy: 1, 862
+  size: 195, 58
+  orig: 205, 65
+  offset: 8, 4
+  index: -1
+FX/Fire_1/TX_yjh_0153
+  rotate: false
+  xy: 1, 798
+  size: 197, 60
+  orig: 203, 65
+  offset: 3, 3
+  index: -1
+FX/Fire_1/TX_yjh_0154
+  rotate: false
+  xy: 198, 860
+  size: 197, 59
+  orig: 203, 64
+  offset: 4, 3
+  index: -1
+FX/Fire_1/TX_yjh_0155
+  rotate: false
+  xy: 397, 856
+  size: 204, 59
+  orig: 208, 64
+  offset: 2, 3
+  index: -1
+FX/Fire_1/TX_yjh_0156
+  rotate: false
+  xy: 603, 855
+  size: 205, 59
+  orig: 209, 64
+  offset: 2, 3
+  index: -1
+FX/Fire_2/fx_light_1
+  rotate: false
+  xy: 444, 974
+  size: 105, 43
+  orig: 142, 55
+  offset: 32, 4
+  index: -1
+FX/Fire_2/fx_light_2
+  rotate: false
+  xy: 240, 977
+  size: 100, 40
+  orig: 142, 55
+  offset: 37, 4
+  index: -1
+FX/Fire_2/fx_light_3
+  rotate: false
+  xy: 136, 979
+  size: 102, 38
+  orig: 142, 55
+  offset: 35, 5
+  index: -1
+FX/Fire_2/fx_light_4
+  rotate: false
+  xy: 342, 975
+  size: 100, 42
+  orig: 142, 55
+  offset: 38, 4
+  index: -1
+FX/Fire_2/fx_light_5
+  rotate: false
+  xy: 32, 986
+  size: 102, 31
+  orig: 142, 55
+  offset: 39, 9
+  index: -1
+FX/Fire_3/dan4_001
+  rotate: true
+  xy: 1, 926
+  size: 51, 176
+  orig: 51, 193
+  offset: 0, 0
+  index: -1
+FX/Fire_3/dan4_002
+  rotate: true
+  xy: 179, 922
+  size: 51, 178
+  orig: 51, 193
+  offset: 0, 0
+  index: -1
+FX/Fire_3/dan4_003
+  rotate: true
+  xy: 359, 921
+  size: 51, 184
+  orig: 51, 193
+  offset: 0, 0
+  index: -1
+FX/Fire_3/dan4_004
+  rotate: true
+  xy: 545, 917
+  size: 51, 180
+  orig: 51, 193
+  offset: 0, 0
+  index: -1
+FX/Fire_3/dan4_005
+  rotate: true
+  xy: 727, 916
+  size: 51, 186
+  orig: 51, 193
+  offset: 0, 0
+  index: -1
+FX/Fx_RoudLt
+  rotate: false
+  xy: 200, 794
+  size: 128, 64
+  orig: 128, 64
+  offset: 0, 0
+  index: -1
+FX/fx_light_1
+  rotate: false
+  xy: 810, 851
+  size: 99, 63
+  orig: 99, 63
+  offset: 0, 0
+  index: -1
+FX/fx_light_2
+  rotate: false
+  xy: 550, 733
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+FX/fx_particle
+  rotate: false
+  xy: 1, 644
+  size: 184, 152
+  orig: 220, 226
+  offset: 23, 39
+  index: -1
+FX/fx_particles_1
+  rotate: false
+  xy: 1, 1003
+  size: 29, 14
+  orig: 33, 19
+  offset: 2, 3
+  index: -1
+arrow
+  rotate: false
+  xy: 187, 625
+  size: 692, 78
+  orig: 692, 78
+  offset: 0, 0
+  index: -1
