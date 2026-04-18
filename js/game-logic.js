@@ -4,10 +4,10 @@
 // Communicates with renderer via EventEmitter pattern
 // =====================================================
 
-const IMG = '../../assets/generated/';
+const IMG = './assets/generated/';
 const VER = '?v=13';
 
-export const WILD_IMG = '../../assets/generated/baimayinqiang_symbol_wild.png';
+export const WILD_IMG = './assets/generated/baimayinqiang_symbol_wild.png';
 
 export const SYMS = [
   { id: 0, icon: 'G', img: IMG + 'baimayinqiang_symbol_token_green_muted_v4.png' + VER,   name: '\u4ee4\u724c-\u7da0', odds: { 3: 0.1, 4: 0.3, 5: 0.6 } },
@@ -21,11 +21,11 @@ export const SYMS = [
   { id: 8, icon: 'Z', img: IMG + 'baimayinqiang_symbol_zhaoyun_v7.png?v=7',                name: '\u8d99\u96f2',        odds: { 3: 10.0, 4: 30.0, 5: 60.0 } },
   { id: 9, icon: 'SC', img: IMG + 'baimayinqiang_symbol_scatter_v5.png' + VER,             name: '\u963f\u6597 (SCATTER)', isScatter: true },
   { id: 10,icon: 'W', img: WILD_IMG,                                                       name: 'WILD',                   wild: true },
-  { id: 11,icon: 'GSC',img: '../../assets/generated/baimayinqiang_symbol_golden_scatter_v3.png', name: '\u9ec3\u91d1 (GOLDEN SCATTER)', isScatter: true, isGolden: true }
+  { id: 11,icon: 'GSC',img: './assets/generated/baimayinqiang_symbol_golden_scatter_v3.png', name: '\u9ec3\u91d1 (GOLDEN SCATTER)', isScatter: true, isGolden: true }
 ];
 
-export const TRANSITION_IMG = '../../assets/generated/baimayinqiang_zhaoyun_splash_v7.png';
-export const BIG_WIN_IMG = '../../assets/generated/baimayinqiang_perf_bigwin_layout.png';
+export const TRANSITION_IMG = './assets/generated/baimayinqiang_zhaoyun_splash_v7.png';
+export const BIG_WIN_IMG = './assets/generated/baimayinqiang_perf_bigwin_layout.png';
 
 export const ROWS = 4;
 export const COLS = 5;
@@ -86,11 +86,11 @@ class _GameLogicCore extends EventEmitter {
     try {
       const dir = state.extraBet ? '2' : '0'; // placeholder logic, standardizing for 0
       const [main, free, drop, hero, choose] = await Promise.all([
-        fetch(`../../reel/0/main.json`).then(r => r.json()),
-        fetch(`../../reel/0/free.json`).then(r => r.json()),
-        fetch(`../../reel/0/drop_strip.json`).then(r => r.json()),
-        fetch(`../../reel/0/hero_feature_trigger.json`).then(r => r.json()),
-        fetch(`../../reel/0/reelchoose.json`).then(r => r.ok ? r.json() : null)
+        fetch(`./reel/0/main.json`).then(r => r.json()),
+        fetch(`./reel/0/free.json`).then(r => r.json()),
+        fetch(`./reel/0/drop_strip.json`).then(r => r.json()),
+        fetch(`./reel/0/hero_feature_trigger.json`).then(r => r.json()),
+        fetch(`./reel/0/reelchoose.json`).then(r => r.ok ? r.json() : null)
       ]);
       REEL_DATA.main = main;
       REEL_DATA.free = free;

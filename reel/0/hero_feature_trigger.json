@@ -1,0 +1,4 @@
+{
+  "trigger_chance": 0.3,
+  "symbols_to_destroy": [0, 1, 2, 3]
+}
