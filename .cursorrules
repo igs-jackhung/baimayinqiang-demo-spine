@@ -1,0 +1,60 @@
+# Demo Game UI/UX Design Guidelines (Generic Template)
+
+本專案的老虎機 Demo 視覺與操作介面，應嚴格遵循下述的各種對稱與人體工學規範：
+
+## 1. 核心對稱與平衡 (Symmetry & Balance)
+- **視覺重心**：遊戲 UI 非常著重上下左右的對稱平衡。所有左右對稱的面板（如「統計」與「特殊機制」）必須設定為等高 (`align-items: stretch`)，且內部最上方的元素（如「購買免遊」按鈕與關鍵數值字樣）必須維持絕對一致的高度（例如固定 `height: 58px`），確保水平分隔線能完美切齊。
+- **對齊約束**：最下方的地 BAR（控制列）最大寬度必須與上方遊戲區塊（左面板 + 盤面 + 右面板 + 所有間距）的總寬度完全吻合，保證地 BAR 左右邊緣與上方左右面板的外側邊緣呈現 100% 精準的垂直切齊對齊。
+
+## 2. 留白與呼吸感 (Negative Space)
+- **避免邊緣壓迫**：地 BAR 內的按鈕絕對不可緊貼邊界。必須透過充裕的左右 `padding`（例如 `30px`）搭配適度縮減的按鈕 `gap`（例如 `8px`），為左右兩側（如 `(i)` 和 `SPIN` 按鈕外側）偷出呼吸空間，創造視覺平衡。
+
+## 3. 地 BAR 按鈕順序與風格 (Control Bar Standards)
+- **經典排序**：地 BAR 的功能按鈕必須嚴格依照以下順序由左至右排列：
+  1. `ⓘ` (說明) 與 `賠率表`
+  2. `BALANCE` (餘額)
+  3. `TOTAL BET` (押注調整)
+  4. `WIN` (贏分)
+  5. `🛒 買免遊` (Buy Feature)
+  6. `⚡` (加速模式)
+  7. `AUTO` (自動玩)
+  8. `額外押注` (Extra Bet 開關)
+  9. `SPIN` (放於最右側)
+- **尺寸與對稱對齊**：地 BAR 的資訊區塊（如 BALANCE, TOTAL BET, WIN）應設定統一的寬度（建議 `width: 140px`）以確保水平分布對稱。
+- **文字基準線對齊**：多個數值併排顯示時，應統一字體並設定 `line-height: 1`，確保所有數值精準切齊在同一條水平基準線上。
+
+## 4. 互動狀態與防呆 (Interactions & Modals)
+- **SPIN 狀態變更**：當玩家啟動 AUTO（自動押注）時，最右側的 `SPIN` 按鈕文字必須動態改變為 `STOP`。
+- **等距美觀彈窗**：所有確認性彈窗，其確認與取消按鈕必須設定為相同大小的對稱寬度。
+- **人體工學手順**：彈窗中，執行確認的按鈕應強制配置於**右側**，取消動作的按鈕應配置於**左側**。
+
+## 5. 市場情報報告規範 (Market Research Reporting)
+- **視覺美感**：報告 Dashboard (`.html`) 必須採用現代、高級的 UI 設計，確保具備極佳的可讀性。
+- **一鍵操作**：必須包含「全選並複製內容」的按鈕，簡化使用者流程。
+
+## 6. SYMBOL 製作規範 (Symbol Design Guidelines)
+- **高倍率與角色符號**：這類符號的美術風格需「華麗豐富」，材質細節多、特效感強。為提升盤面動態感，人物應採用 **45 度角側寫**。
+- **邊緣溢價工法 (No Edges/Full Bleed)**：符號影像必須輸出為**「正方形尖角 (Sharp 90-degree corners)」**。嚴禁存在圓角裁切或黑框。背景細節必須 100% 填滿空間。
+- **主題背景與世界觀考究**：符號設計風格必須嚴格符合該專案的故事背景設定。
+
+## 7. AI 生產工具與備援機制 (AI Production & Backup)
+- **配額耗盡時 (429 Quota Exhausted)**：若 IDE 內建工具無法使用，應主動轉向調用本地端接入的 **Nano Banana MCP** 功能。
+
+## 8. 工作流整合 (Workflow Integration)
+- **啟動 Demo 遊戲**：應優先調用 `.agent/workflows/launch-demo.md`。
+- **自動化驗證**：完成重大邏輯修改後，應主動建議執行 `/launch-demo` 進行視覺確認。
+
+## 9. 標誌與資產後期處理規範 (Logo & Asset Post-Processing)
+- **透明度處理 (Transparency)**：對於帶有黑色背景的資產，必須使用專用腳本執行核心提取，將背景轉為真正透明的 Alpha Channel。
+
+## 10. 遊戲機制邏輯與防錯 (Game Logic & Error Prevention)
+- **狀態鎖定 (State Locking)**：在各種重要演出期間，必須確保狀態正確鎖定，防止重複觸發。
+- **免遊購買安全 (Buy Feature Safety)**：確保變數在初始化前不被引用，且場景切換前應徹底清理殘留狀態。
+
+## 11. 技術細節與優化標準 (Technical Standards)
+- **事件驅動**：`GameLogic` 透過 `EventEmitter` 發送事件，`PixiRenderer` 監聽並執行視覺演出。
+- **Spine 串接相容性**：必須處理 PixiJS v7 與舊版 Spine 之間的資產補丁（攔截 `autoUpdateTransform`）。
+- **音訊驅動層 (AudioManager) 改寫**：音軌結束應觸發回調，且需具備「同時播放語音保護」機制。
+
+---
+"Thank You. Ready for Next Generation."
