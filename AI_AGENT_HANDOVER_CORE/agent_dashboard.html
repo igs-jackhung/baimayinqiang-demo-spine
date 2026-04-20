@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Agent 分享儀表板 |博弈開發重鎮</title>
+    <style>
+        :root {
+            --bg-color: #0b0b0d;
+            --card-bg: #16161a;
+            --accent: #00f2ff;
+            --text-primary: #ffffff;
+            --text-secondary: #86868b;
+            --border: #333336;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            margin: 0;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            margin: 0;
+            font-weight: 700;
+            letter-spacing: -1.5px;
+        }
+
+        .header p {
+            color: var(--text-secondary);
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            width: 100%;
+            max-width: 1100px;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 18px;
+            padding: 30px;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            font-size: 1.4rem;
+            color: var(--accent);
+        }
+
+        .card p {
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .tag {
+            font-size: 0.75rem;
+            background: rgba(0, 242, 255, 0.1);
+            color: var(--accent);
+            padding: 4px 10px;
+            border-radius: 20px;
+            border: 1px solid rgba(0, 242, 255, 0.2);
+        }
+
+        .footer {
+            margin-top: 80px;
+            text-align: center;
+            border-top: 1px solid var(--border);
+            padding-top: 40px;
+            width: 100%;
+            max-width: 1100px;
+        }
+
+        .footer a {
+            color: var(--accent);
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: 500;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Workflow Styles */
+        .workflow-section {
+            width: 100%;
+            max-width: 1100px;
+            margin: 40px 0 80px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            position: relative;
+            padding: 0 20px;
+        }
+
+        .workflow-section::before {
+            content: '';
+            position: absolute;
+            top: 35px;
+            left: 50px;
+            right: 50px;
+            height: 2px;
+            background: linear-gradient(90deg, var(--accent), transparent, var(--accent));
+            opacity: 0.3;
+            z-index: 0;
+        }
+
+        .step {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1;
+            z-index: 1;
+            position: relative;
+        }
+
+        .step-icon {
+            width: 70px;
+            height: 70px;
+            background: var(--card-bg);
+            border: 2px solid var(--border);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            box-shadow: 0 0 20px rgba(0, 242, 255, 0);
+            transition: all 0.3s ease;
+        }
+
+        .step:hover .step-icon {
+            border-color: var(--accent);
+            box-shadow: 0 0 20px rgba(0, 242, 255, 0.2);
+        }
+
+        .step-label {
+            font-weight: 600;
+            font-size: 1rem;
+            color: var(--text-primary);
+            text-align: center;
+        }
+
+        .step-sub {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            margin-top: 5px;
+        }
+
+        /* Tech Column Styles */
+        .tech-column {
+            background: linear-gradient(135deg, #16161a 0%, #0b0b0d 100%);
+            border: 1px solid var(--accent);
+            border-radius: 24px;
+            padding: 40px;
+            margin-top: 20px;
+            position: relative;
+            box-shadow: 0 0 40px rgba(0, 242, 255, 0.05);
+        }
+
+        .tech-column h3 {
+            color: var(--accent);
+            margin-top: 0;
+            font-size: 1.8rem;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .tech-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .tech-item {
+            border-left: 2px solid var(--border);
+            padding-left: 20px;
+        }
+
+        .tech-item h4 {
+            color: #fff;
+            margin: 0 0 10px 0;
+            font-size: 1.1rem;
+        }
+
+        .tech-item p {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        .tech-item strong {
+            color: var(--accent);
+        }
+
+        @media (max-width: 768px) {
+            .workflow-section {
+                flex-direction: column;
+                align-items: center;
+                gap: 40px;
+            }
+            .workflow-section::before {
+                display: none;
+            }
+            .tech-list {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>AI Agent 分享儀表板</h1>
+        <p>基於「白馬銀槍」成功開發經驗提取之核心資源</p>
+    </div>
+
+    <!-- Section 1: Workflow -->
+    <div style="width: 100%; max-width: 1100px; margin-bottom: 20px;">
+        <h2 style="color: #ffffff; border-left: 4px solid var(--accent); padding-left: 15px; font-size: 1.5rem; margin-bottom: 25px;">一、流程圖</h2>
+    </div>
+    <div class="workflow-section" style="margin-top: 0;">
+        <div class="step">
+            <div class="step-icon">💡</div>
+            <div class="step-label">企劃輸入</div>
+            <div class="step-sub">Skill 00</div>
+        </div>
+        <div class="step">
+            <div class="step-icon">📜</div>
+            <div class="step-label">規格轉換</div>
+            <div class="step-sub">Skill 02</div>
+        </div>
+        <div class="step">
+            <div class="step-icon">🎨</div>
+            <div class="step-label">影像生成</div>
+            <div class="step-sub">Skill 04 / 11 / 15</div>
+        </div>
+        <div class="step">
+            <div class="step-icon">💻</div>
+            <div class="step-label">代碼實作</div>
+            <div class="step-sub">Skill 13 / 16</div>
+        </div>
+        <div class="step">
+            <div class="step-icon">⚡</div>
+            <div class="step-label">驗證發布</div>
+            <div class="step-sub">Launch Demo</div>
+        </div>
+    </div>
+
+    <!-- Section 2: Quick Start -->
+    <div style="width: 100%; max-width: 1100px; margin-bottom: 60px;">
+        <h2 style="color: #ffffff; border-left: 4px solid var(--accent); padding-left: 15px; font-size: 1.5rem; margin-bottom: 25px;">二、快速啟動三步驟</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+            <div style="background: rgba(255,255,255,0.03); padding: 20px; border-radius: 12px; border: 1px dashed var(--border);">
+                <div style="color: var(--accent); font-weight: bold; margin-bottom: 10px;">STEP 1. 搬運資源</div>
+                <p style="font-size: 0.9rem; color: var(--text-secondary); margin: 0;">將整個資料夾複製到你的新專案目錄下。這會讓 AI 自動學會所有的開發規範。</p>
+            </div>
+            <div style="background: rgba(255,255,255,0.03); padding: 20px; border-radius: 12px; border: 1px dashed var(--border);">
+                <div style="color: var(--accent); font-weight: bold; margin-bottom: 10px;">STEP 2. 直接對話</div>
+                <p style="font-size: 0.9rem; color: var(--text-secondary); margin: 0;">在對話視窗輸入「/generate-gdd」或「我要開始新專案」，AI 就會主動引導你完成後續動作。</p>
+            </div>
+            <div style="background: rgba(255,255,255,0.03); padding: 20px; border-radius: 12px; border: 1px dashed var(--border);">
+                <div style="color: var(--accent); font-weight: bold; margin-bottom: 10px;">STEP 3. 預覽成果</div>
+                <p style="font-size: 0.9rem; color: var(--text-secondary); margin: 0;">隨時輸入「/launch-demo」，就能在網頁上直接看到目前製作完成的試玩版畫面。</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 3: Skill Descriptions -->
+    <div style="width: 100%; max-width: 1100px; margin-bottom: 25px;">
+        <h2 style="color: #ffffff; border-left: 4px solid var(--accent); padding-left: 15px; font-size: 1.5rem;">三、SKILL 說明</h2>
+    </div>
+
+    <div class="grid">
+        <div class="card">
+            <h3>📝 企劃寫作引導</h3>
+            <p>引導企劃撰寫 AI 友善的 Markdown 文件，確保後續數據解析的精準度並節省開發 Token。</p>
+            <span class="tag">Skill 00</span>
+        </div>
+
+        <div class="card">
+            <h3>📖 GDD 產生啟動器</h3>
+            <p>透過 Skill 02 定義規格，自動產出具備 FSM、RNG、連消邏輯的標準程式規格書。</p>
+            <span class="tag">Skill 02</span>
+        </div>
+
+        <div class="card">
+            <h3>🎨 美術規格自動化</h3>
+            <p>串接 Nano Banana MCP，將 GDD 規格自動轉化為可視化的 Symbol 與場景原型清單。</p>
+            <span class="tag">Skill 04 / 11</span>
+        </div>
+
+        <div class="card">
+            <h3>⚙️ PixiJS Demo 引擎</h3>
+            <p>含 Spine 3.8 補丁、對稱佈局標準。自動生成符合產業規格的試玩版原始碼。</p>
+            <span class="tag">Skill 13</span>
+        </div>
+
+        <div class="card">
+            <h3>🎬 高階過場整合</h3>
+            <p>整合 AI 影片生成 (Veo 3.0) 與靜態備援，實現高品質的遊戲動態演出。</p>
+            <span class="tag">Skill 15</span>
+        </div>
+
+        <div class="card">
+            <h3>🔊 專業音訊架構</h3>
+            <p>基於 Howler.js 的 AudioManager 改寫，支援跑分同步與語音重疊保護功能。</p>
+            <span class="tag">Skill 16</span>
+        </div>
+
+        <div class="card">
+            <h3>🛡️ 行為準則核心</h3>
+            <p>內嵌 .cursorrules 規範，讓 AI 自動遵循對稱平衡與 UI 人體工學標準。</p>
+            <span class="tag">.cursorrules</span>
+        </div>
+    </div>
+
+    <!-- Section 4: Spine Integration -->
+    <div style="width: 100%; max-width: 1100px; margin-top: 60px;">
+        <h2 style="color: #ffffff; border-left: 4px solid var(--accent); padding-left: 15px; font-size: 1.5rem; margin-bottom: 25px;">四、Spine 串接</h2>
+        
+        <div class="tech-column">
+            <h3>🛡️ Spine 3.8 & PixiJS v7 深度相容解決方案</h3>
+            <p style="color: var(--text-secondary); margin-bottom: 30px;">針對博弈產業常見的舊版 Spine 資產與現代遊戲引擎衝突，我們實作了以下核心技術突破：</p>
+            
+            <div class="tech-list">
+                <div class="tech-item">
+                    <h4>1. Transform 補丁攔截器</h4>
+                    <p>自動注入補丁攔截 <strong>autoUpdateTransform</strong> 與 <strong>containerUpdateTransform</strong> 方法，有效防止資產銷毀時因 transform 狀態未定義引發的全局崩潰。</p>
+                </div>
+                <div class="tech-item">
+                    <h4>2. 異步演出的數據驅動化</h4>
+                    <p>將 Spine AnimationState 封裝為 <strong>Promise 工作流</strong>，讓邏輯層 (GameLogic) 可以精準 await 演出完成，徹底解決傳統動畫回調地獄 (Callback Hell) 導致的數據不同步問題。</p>
+                </div>
+                <div class="tech-item">
+                    <h4>3. 全屏過場畫布隔離技術</h4>
+                    <p>實作獨立的過場專用畫布管理，確保全屏 Spine 素材即使在 z-index 極度複雜的 UI 場景下，依然能維持 <strong>60 FPS 滿速流暢演出</strong>，且不干擾主遊戲渲染效能。</p>
+                </div>
+                <div class="tech-item">
+                    <h4>4. 動態補足防禦計時器</h4>
+                    <p>內建動畫播放安全網，若 WebGL 發生異常或檔案缺失，系統將自動觸發 <strong>Safety Resolve</strong> 並優雅回退，保證遊戲流程絕對不斷死、不卡死。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <a href="AGENT_DISTRIBUTION_LEGEND.md">📖 查看完整使用指南</a>
+        <a href=".agent/resources/common_game_specs.md">📜 查看通用規格資源</a>
+        <p style="color: var(--text-secondary); margin-top: 30px; font-size: 0.8rem;">
+            "Thank You. Ready for Next Generation."
+        </p>
+    </div>
+
+</body>
+</html>
